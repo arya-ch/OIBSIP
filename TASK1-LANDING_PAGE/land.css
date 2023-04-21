@@ -144,3 +144,36 @@ label{
     display: none;
 }
 
+
+@media(max-width:960px){
+    header .navigation {
+        display: none;
+    }
+    .content .info h2{
+        font-size:45px;
+        line-height: 50px;
+    }
+    .content .info h2 span {
+        font-size: 40px;
+        font-weight:600 ;
+    }
+
+    .content .info p{
+        font-size: 14px;
+    }
+    
+
+}
+
+
+@media(max-width:560px){
+ .content h2 span{
+    font-size: 30px ;
+    font-weight: 600;
+ }   
+
+ .content .info p{
+    font-size: 14px;
+    
+ }
+}
